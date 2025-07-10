@@ -8,6 +8,15 @@ int main()
 {
 
      string s = "hello_world";
+     cout<<s;
+
+     // *! need to do
+     // ? This is highlighted text
+     //* This text is highlighted
+    // todo: print character
+
+
+
     // s.push_back('n');
     // s.append(" world");
 
