@@ -1,4 +1,5 @@
-/* 
+## Question:
+`🔥 bit manipulation`
 
 Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
 
@@ -19,8 +20,7 @@ Example 3:
 Input: num s = [1]
 Output: 1
 
-*/
-
+```cpp
 #include<iostream>
 #include<vector>
 
@@ -29,7 +29,7 @@ using namespace std;
 int singleNumber(vector<int> &nums){
     int ans = 0; // use only constant extra space.
     for(int value : nums){
-        ans =ans ^ value ; // 0 ^ 4 =1, 
+        ans =ans ^ value  // 0 ^ 4 =1, 
     }
 
     return ans;
@@ -40,3 +40,4 @@ int main(){
 
 
 }
+```

@@ -14,3 +14,11 @@
 -   -   ` cd String`
 -    `g++ -std=c++11 code.cpp -o code && ./code`
 <!-- -    `g++ -std=c++11 code.cpp && ./a.out` -->
+
+
+
+## Revision:
+
+1.Swap two numbers: 
+    -swap(a,b) -> This function returns the swap
+    -XOR > a^a =0, a^b =1; [used for single unique number] 
