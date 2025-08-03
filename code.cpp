@@ -1,24 +1,30 @@
 
 // g++ -std=c++11 code.cpp -o code && ./code
 #include <iostream>
+#include <vector>
 using namespace std;
 
+int singleNumber(vector<int> &nums)
+{
+    int ans = 0; // use only constant extra space.
+    for (int value : nums)
+    {
+        ans = value ^ ans;
+    }
 
-void swapTwoNumbers(int &a , int &b){
-     swap(a,b);
+    // for (int i = 0; i < nums.size(); i++)
+    // {
+    //     ans = ans ^ nums[i];
+    // }
+
+    return ans;
 }
+
 int main()
 {
 
-    int a = 10;
-    int b = 20;
-
-    cout << "before swap: " << "a=" << a << ", b= " << b << endl;
-    // swap(a,b);
-    swapTwoNumbers(a,b);
-    cout << "after swap: " << "a=" << a << ", b= " << b << endl;
+    vector<int> nums = {1, 1, 3, 5, 4, 5, 4};
+    cout << singleNumber(nums) << endl;
 
     return 0;
 }
-
-
