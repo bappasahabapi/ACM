@@ -10,7 +10,6 @@
     0^0 =0,
     
 
-
 - **LeetCode-136:** [Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.]
 
 ```cpp
