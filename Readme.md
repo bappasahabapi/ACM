@@ -20,5 +20,6 @@
 ## Revision:
 
 1.Swap two numbers: 
-    -swap(a,b) -> This function returns the swap
+    -swap(a,b) -> This function returns the swap {STL}
     -XOR > a^a =0, a^b =1; [used for single unique number] 
+    - swap two number using temp variable

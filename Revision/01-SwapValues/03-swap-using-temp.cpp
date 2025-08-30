@@ -11,9 +11,9 @@ int main()
     cout << "before swap: " << "a=" << a << ", b= " << b << endl;
 
     int temp;
-    temp = a;
-    a = b;
-    b=temp;
+    temp = a;  //10
+    a = b;    // 20
+    b=temp;   //10
 
     cout << "after swap: " << "a=" << a << ", b= " << b << endl;
 
