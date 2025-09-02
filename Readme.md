@@ -1,7 +1,7 @@
 [Git connected:](https://github.com/bappasahabapi/ACM.git)
 
 
-- [📁 JIPC-CPS:](https://github.com/bappasahabapi/ACM/blob/main/JIPC-CPS/)
+- [📁 JIPC:](https://github.com/bappasahabapi/ACM/blob/main/JIPC-CPS/)
 - [📁 NeetCode-150:](https://github.com/bappasahabapi/ACM/tree/main/NeetCode-150)
 - [📁 Topics:](https://github.com/bappasahabapi/ACM/tree/main/Topics)
 
@@ -20,6 +20,9 @@
 ## Revision:
 
 1.Swap two numbers: 
+
     -swap(a,b) -> This function returns the swap {STL}
+
     -XOR > a^a =0, a^b =1; [used for single unique number] 
+
     - swap two number using temp variable
