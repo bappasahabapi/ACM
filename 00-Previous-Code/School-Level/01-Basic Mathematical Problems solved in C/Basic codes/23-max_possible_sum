@@ -1,0 +1,33 @@
+#include<stdio.h>
+
+int main()
+
+{
+
+    int num1,num2,num3,mini;
+
+    scanf("%d%d%d",&num1,&num2,&num3);
+
+    if(num1<num2 && num1<num3)
+
+        mini=num1;
+
+    else if(num2<num3)
+
+        mini=num2;
+
+    else
+
+        mini=num3;
+
+
+    int sum=(num1+num2+num3),ans;
+
+    ans=(sum-mini);
+
+
+    printf("%d\n",ans);
+
+    return 0;
+
+}
