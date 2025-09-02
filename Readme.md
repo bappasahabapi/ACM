@@ -1,5 +1,13 @@
+🌟 *Solved more than **500 +** problems* ⭐
+
 [Git connected:](https://github.com/bappasahabapi/ACM.git)
 
+
+- [📁 Online Contest Code:](https://github.com/bappasahabapi/ACM/tree/main/Online%20Contest%20Platform%20Code)
+    - Uri Online Judge Platform
+    - CodeForce Platform Code
+    - LeetCode Platform Code [_DSA-CPP, _DSA_JavaScript]
+    - Algorithm Code
 
 - [📁 JIPC:](https://github.com/bappasahabapi/ACM/blob/main/JIPC-CPS/)
 - [📁 NeetCode-150:](https://github.com/bappasahabapi/ACM/tree/main/NeetCode-150)
@@ -15,14 +23,3 @@
 -    `g++ -std=c++11 code.cpp -o code && ./code`
 <!-- -    `g++ -std=c++11 code.cpp && ./a.out` -->
 
-
-
-## Revision:
-
-1.Swap two numbers: 
-
-    -swap(a,b) -> This function returns the swap {STL}
-
-    -XOR > a^a =0, a^b =1; [used for single unique number] 
-
-    - swap two number using temp variable
