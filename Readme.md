@@ -3,7 +3,7 @@
 
 - [📁 JIPC-CPS:](https://github.com/bappasahabapi/ACM/blob/main/JIPC-CPS/)
 - [📁 NeetCode-150:](https://github.com/bappasahabapi/ACM/tree/main/NeetCode-150)
-- [📁 Othrs:](https://github.com/bappasahabapi/ACM/tree/main/Others/Patterns)
+- [📁 Topics:](https://github.com/bappasahabapi/ACM/tree/main/Topics/Patterns)
 
 ##    Run Code 
 
