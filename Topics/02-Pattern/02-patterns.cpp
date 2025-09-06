@@ -4,8 +4,8 @@ using namespace std;
 
 void pattern2(int n){
 
-    int k=1 ;
-    int spc;
+    int k=1 ; // how many times the inner column works
+    int spc; // space
     
     for(int i =1; i <=n; i++){
         
@@ -97,6 +97,7 @@ void pattern8(int n){
 
 int main() {
 	int n=4; 
-    pattern7(n);
-    pattern8(n);
+    pattern2(n);
+    // pattern7(n);
+    // pattern8(n);
 }
